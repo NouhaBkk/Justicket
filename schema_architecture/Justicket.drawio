@@ -1,9 +1,84 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.13">
   <diagram name="Page-1" id="SxNRomsQy3fEEUQk0177">
-    <mxGraphModel>
+    <mxGraphModel dx="1588" dy="824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="KYg9L7KCBigNb7GhnbRb-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" edge="1" parent="1" source="KYg9L7KCBigNb7GhnbRb-2" target="KYg9L7KCBigNb7GhnbRb-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="103" y="370" />
+              <mxPoint x="103" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KYg9L7KCBigNb7GhnbRb-2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="23" y="340" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KYg9L7KCBigNb7GhnbRb-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="KYg9L7KCBigNb7GhnbRb-4" target="KYg9L7KCBigNb7GhnbRb-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KYg9L7KCBigNb7GhnbRb-4" value="Web App" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="118" y="320" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="KYg9L7KCBigNb7GhnbRb-5" value="React/&lt;div&gt;TypeScript&lt;/div&gt;" style="label;whiteSpace=wrap;html=1;image=img/clipart/Gear_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="138" y="420" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KYg9L7KCBigNb7GhnbRb-6" value="Gestion Concerts" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="10" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="KYg9L7KCBigNb7GhnbRb-7" value="Gestion Billets" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="230" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="KYg9L7KCBigNb7GhnbRb-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="KYg9L7KCBigNb7GhnbRb-12" target="KYg9L7KCBigNb7GhnbRb-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="365" />
+              <mxPoint x="470" y="55" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KYg9L7KCBigNb7GhnbRb-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="KYg9L7KCBigNb7GhnbRb-12" target="KYg9L7KCBigNb7GhnbRb-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="365" />
+              <mxPoint x="470" y="755" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KYg9L7KCBigNb7GhnbRb-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="KYg9L7KCBigNb7GhnbRb-12" target="KYg9L7KCBigNb7GhnbRb-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KYg9L7KCBigNb7GhnbRb-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="KYg9L7KCBigNb7GhnbRb-12" target="KYg9L7KCBigNb7GhnbRb-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KYg9L7KCBigNb7GhnbRb-12" value="API Gateway" style="ellipse;whiteSpace=wrap;html=1;align=center;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="343" y="345" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KYg9L7KCBigNb7GhnbRb-13" value="Gestion Paiment" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="633" y="430" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="KYg9L7KCBigNb7GhnbRb-14" value="Gestion Paiment" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="710" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="KYg9L7KCBigNb7GhnbRb-15" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.data;" vertex="1" parent="1">
+          <mxGeometry x="701" y="40" width="36.45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="KYg9L7KCBigNb7GhnbRb-16" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.data;" vertex="1" parent="1">
+          <mxGeometry x="860" y="260" width="36.45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="KYg9L7KCBigNb7GhnbRb-17" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.data;" vertex="1" parent="1">
+          <mxGeometry x="860" y="452.5" width="36.45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="KYg9L7KCBigNb7GhnbRb-18" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.data;" vertex="1" parent="1">
+          <mxGeometry x="710" y="740" width="36.45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="KYg9L7KCBigNb7GhnbRb-19" value="Dashboard + DSI" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="330" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="KYg9L7KCBigNb7GhnbRb-21" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Justicket&lt;/h1&gt;&lt;p&gt;Architecture des apps&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="20" width="180" height="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
