@@ -1,0 +1,1 @@
+All this is just a test because draw demands a folder to push the schema on github
